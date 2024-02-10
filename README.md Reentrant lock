@@ -1,0 +1,32 @@
+# ReentrantLock-demo
+public void some_method()
+{
+
+        reentrantlock.lock();
+
+        try
+
+        {
+
+            //Do some work
+
+        }
+
+        catch(Exception e)
+
+        {
+
+            e.printStackTrace();
+
+        }
+
+        finally
+
+        {
+
+            reentrantlock.unlock();
+
+        }
+
+         
+}
